@@ -10,6 +10,7 @@ server.app.use(bodyParser.urlencoded({
     extended:true
 }));
 server.app.use(bodyParser.json());
+// Rutinas de procesado de datos
 
 server.app.use(cors({origin:true, credentials:true}));
 // Credenciales de seguridad
